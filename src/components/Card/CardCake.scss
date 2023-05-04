@@ -1,0 +1,23 @@
+.card-description {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: 50px;
+  color: #8b4626;
+}
+
+.line-btn-card {
+  position: absolute;
+  bottom: 8px;
+  right: 18px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.card-custom {
+  border: 2px solid #8b4626 !important;
+  width: 100%;
+  .img-card {
+    height: 250px;
+    object-fit: cover;
+  }
+}

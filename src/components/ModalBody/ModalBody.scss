@@ -1,0 +1,27 @@
+.flex-modal {
+  padding: 24px;
+  background-color: whitesmoke;
+  color: black;
+}
+
+.icon-add {
+  font-size: 24px;
+  padding-left: 8px;
+  cursor: pointer;
+}
+.icon-align {
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+.icon-delete-pic {
+  font-size: 16px;
+  padding-left: 8px;
+  cursor: pointer;
+}
+.btn-load {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 32px;
+}

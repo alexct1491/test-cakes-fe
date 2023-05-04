@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Poltawski+Nowy:ital,wght@0,400;1,500&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poltawski Nowy", serif;
+}
+h1 {
+  font-family: "Poltawski Nowy", serif;
+}
+div {
+  font-family: "Poltawski Nowy", serif;
+}
+
+.pointer {
+  cursor: pointer;
+}
+.btn-custom {
+  background: #8b4626 !important;
+  border: 2px solid #8b4626 !important;
+
+  &:hover {
+    background: none !important;
+    color: #8b4626 !important;
+    font-weight: 700 !important;
+  }
+}
